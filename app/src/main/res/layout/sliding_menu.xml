@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	>
+
+	<TextView
+		android:id="@+id/others"
+		android:layout_width="0dp"
+		android:layout_height="80dp"
+		android:layout_weight="1"
+		android:text="其他"
+		android:gravity="center"
+		android:drawableBottom="@drawable/selector_main_beer"
+		android:visibility="invisible"
+		/>
+
+	<TextView
+		android:id="@+id/supper"
+		android:layout_width="0dp"
+		android:layout_height="80dp"
+		android:layout_weight="1"
+		android:text="晚餐"
+		android:gravity="center"
+		android:drawableBottom="@drawable/selector_main_supper"
+		android:visibility="invisible"
+		android:textColor="#ffffff"
+		/>
+
+	<TextView
+		android:id="@+id/lunch"
+		android:layout_width="0dp"
+		android:layout_height="80dp"
+		android:layout_weight="1"
+		android:text="午餐"
+		android:gravity="center"
+		android:drawableBottom="@drawable/selector_main_lunch"
+		android:visibility="invisible"
+		android:textColor="#ffffff"
+		/>
+
+	<TextView
+		android:id="@+id/breakfast"
+		android:layout_width="0dp"
+		android:layout_height="80dp"
+		android:layout_weight="1"
+		android:text="早餐"
+		android:gravity="center"
+		android:drawableBottom="@drawable/selector_main_breakfirst"
+		android:visibility="invisible"
+		android:textColor="#ffffff"
+		/>
+
+	<ImageView
+		android:id="@+id/slide_menu_button"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:button="@null"
+		android:background="@drawable/selector_main_add"
+		android:layout_gravity="center_vertical"
+		android:checked="false"
+		android:textColor="#ffffff"
+		/>
+
+</LinearLayout>

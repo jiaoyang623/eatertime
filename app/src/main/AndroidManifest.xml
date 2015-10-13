@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.happyfinger.eatertime">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:name=".OneApp"
+		android:theme="@style/AppTheme"
+		>
+
+		<meta-data
+			android:name="UMENG_APPKEY"
+			android:value="55b044ede0f55a5b4c00909a"
+			/>
+		<meta-data
+			android:name="UMENG_CHANNEL"
+			android:value="default"
+			/>
+
+
+		<meta-data
+			android:name="DATABASE"
+			android:value="sugar_eater.db"/>
+		<meta-data
+			android:name="VERSION"
+			android:value="1"/>
+		<meta-data
+			android:name="QUERY_LOG"
+			android:value="true"/>
+		<meta-data
+			android:name="DOMAIN_PACKAGE_NAME"
+			android:value="org.daniel.eatertime.app"/>
+
+
+		<activity
+			android:name=".SplashActivity"
+			android:screenOrientation="portrait"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".GuideActivity"
+			android:screenOrientation="portrait"
+			/>
+		<activity
+			android:name=".MainActivity"
+			android:screenOrientation="portrait"
+			/>
+
+		<activity
+			android:name=".SearchActivity"
+			android:screenOrientation="portrait"
+			/>
+		<activity
+			android:name=".HistoryActivity"
+			android:screenOrientation="portrait"
+			/>
+		<activity
+			android:name=".StateActivity"
+			android:screenOrientation="portrait"
+			/>
+		<activity
+			android:name="com.umeng.fb.ConversationActivity"/>
+	</application>
+
+</manifest>

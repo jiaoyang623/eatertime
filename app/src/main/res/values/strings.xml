@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">EaterTime</string>
+
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="main_description_default">距最佳午饭时间还有1小时20分钟\n今日已摄入175卡路里\n主人胃口不错，但晚上记得少吃哦</string>
+	<string name="main_food_default">上等T骨牛排（莫尔顿牛排坊）\n点击进入今日虚拟晚餐</string>
+	<string name="drawer_open">open</string>
+	<string name="drawer_close">close</string>
+	<string name="empty"></string>
+
+</resources>

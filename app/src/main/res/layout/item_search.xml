@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<ImageView
+		android:id="@+id/image"
+		android:layout_width="80dp"
+		android:layout_height="60dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:scaleType="centerCrop"
+		android:src="@drawable/ic_launcher"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="5dp"
+		/>
+
+	<ImageView
+		android:id="@+id/add"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"
+		android:layout_centerVertical="true"
+		android:scaleType="centerCrop"
+		android:src="@drawable/ic_launcher"
+		android:layout_marginLeft="5dp"
+		/>
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="蜂蜜（蔬菜和菌藻）"
+		android:layout_alignTop="@id/image"
+		android:layout_toRightOf="@+id/image"
+		android:layout_toEndOf="@+id/image"
+		android:singleLine="true"
+		android:layout_toLeftOf="@id/add"
+		android:textColor="#0000ff"
+		android:textSize="18sp"
+		android:layout_marginTop="5dp"
+		/>
+
+	<TextView
+		android:id="@+id/description"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="每100克49大卡，减肥时可少量使用"
+		android:layout_toRightOf="@+id/image"
+		android:layout_toEndOf="@+id/image"
+		android:layout_alignBottom="@id/image"
+		android:singleLine="true"
+		android:layout_toLeftOf="@id/add"
+		android:textColor="#000000"
+		android:textSize="16sp"
+		android:layout_marginBottom="3dp"
+		/>
+</RelativeLayout>
